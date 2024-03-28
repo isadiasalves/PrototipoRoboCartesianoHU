@@ -27,8 +27,6 @@ coord_med = [(1, 1), (1, 9), (1, 25), (1, 33), (2, 16),
              (2, 17), (2, 18), (2, 21), (3, 31), (3, 40), (3, 52), (3, 60), (2, 53), (1, 47), (3, 25)]
 
 # cria a função fitness que será aplicada nas sequências geradas para verificar seus desempenhos (calcular a distância que o robô irá percorrer)
-
-
 def dist(lista_indiv, coord_pedidos, qtd_medicamento):
     for j in range(len(lista_indiv)):
         seq = lista_indiv[j]
@@ -79,8 +77,6 @@ while h <= qtd_medicamento_loop:
     h += 1
 
 # o programa foi alocado dentro de uma função para que se pudesse verificar o tempo de execução dele
-
-
 def programa():
     elemento = []
     coordenadas_4coleta = []
